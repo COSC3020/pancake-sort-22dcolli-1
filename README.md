@@ -29,3 +29,17 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## Plagarism Statement
+
+All exercises must contain the following statement:
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+## Note
+I am attempting this from scratch, I will compare it to my last semesters repository and make any corrections needed based on that code and response.
+
+## Answer
+I believe that in terms of comparisons the asymptotic runtime would be $\Theta(n^2)$ because my algorithm requires the traversal of the array with the two for loops. In terms of the number of flips, for any given element the most possible flips is 2, with one getting the element to the front, and then the other flipping it into the proper order on the end, this leaves us with a runtime of $\Theta(n)$ (not 2n) because to move every element requires at max 2 flips each but the constant 2 can be dropped.
+
